@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	double a,b,c,u,alan;
+        Scanner input=new Scanner(System.in);
+        System.out.print("a kenarı uzunluğunu giriniz\t:");
+        a=input.nextDouble();
+        System.out.print("b kenarı uzunluğunu giriniz\t:");
+        b=input.nextDouble();
+        System.out.print("c kenarı uzunluğunu giriniz\t:");
+        c=input.nextDouble();
+        u=(a+b+c)/2;
+        alan=u*(u-a)*(u-b)*(u-c);
+        System.out.println(Math.sqrt(alan));
+    }
+}
