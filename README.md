@@ -1,0 +1,2 @@
+# ucgeninAlan-
+üçgenin alanını hesaplama
